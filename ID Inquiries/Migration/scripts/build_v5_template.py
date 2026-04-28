@@ -526,7 +526,7 @@ def build_client_accounts(wb):
     widths = (widths + [14] * 30)[: len(header)]
     return _build_reference_sheet(
         wb, "Client Accounts", header, data, widths,
-        "Client Accounts — law firms already imported into CRM. Edit only if details are outdated. Add new firms in the empty rows below."
+        "Client Accounts — law firms you've already shared with us. Add any new firms in the empty rows below."
     )
 
 
@@ -536,7 +536,7 @@ def build_clients(wb):
     widths = (widths + [14] * 10)[: len(header)]
     return _build_reference_sheet(
         wb, "Clients", header, data, widths,
-        "Clients — individual lawyers already imported into CRM. Edit only if details are outdated. Add new clients in the empty rows below."
+        "Clients — lawyers you've already shared with us. Add any new contacts in the empty rows below."
     )
 
 
@@ -546,7 +546,7 @@ def build_investigators(wb):
     widths = (widths + [14] * 10)[: len(header)]
     return _build_reference_sheet(
         wb, "Investigators", header, data, widths,
-        "Investigators — field investigators already imported into CRM. Edit only if details are outdated. Add new investigators in the empty rows below."
+        "Investigators — investigators you've already shared with us. Add any new investigators in the empty rows below."
     )
 
 
