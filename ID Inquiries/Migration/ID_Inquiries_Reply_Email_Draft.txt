@@ -1,0 +1,81 @@
+Subject: Re: ID Inquiries – Data Upload & Migration Update
+
+Hi Alison,
+
+Thank you for sending over the extract and for the detailed explanation – it is really helpful to have the colour coding laid out clearly, and the file itself gives us everything we need to get started on our end.
+
+I want to work through each of the points you raised so nothing gets missed.
+
+---
+
+PREVIOUSLY ENTERED DATA (CLIENT COMPANY, CLIENT AND INVESTIGATORS SPREADSHEETS)
+
+I can confirm that all the data you had previously entered in the Client Company, Client, and Investigators spreadsheets is completely intact on our end. Nothing has been lost. The Investigators spreadsheet is complete, and the Client Company spreadsheet is also complete. We will carry all of that data forward directly into this migration – you do not need to re-enter any of it.
+
+For the Client spreadsheet, we understand you were waiting on clarification from your clients about which portal users they wanted on the system. Whenever you are ready to confirm those users and their email addresses, we can add them in at that stage. There is no urgency on that just now – it does not block the migration itself.
+
+---
+
+INSTRUCTION STAGES AT MIGRATION
+
+As we discussed, we are fully set up to handle both stages:
+
+- Instructions at Ready for Allocation stage will import cleanly and appear in the Assignment Map as normal, ready for you to allocate.
+- Instructions at Instruction Allocated stage (where an investigator has already been assigned) will be imported first without the investigator linked, and we will then apply a one-off process to assign the correct investigator to each of those records. We will handle this on our side – all you need to provide is a simple list of which premises maps to which investigator for those already-allocated instructions (we will come back to this once the full file is with us).
+
+We completely understand that you cannot pause allocating new instructions while the migration is being prepared – that is absolutely fine and we have factored this into our approach.
+
+---
+
+MISSING ADDRESS AND LICENSING AUTHORITY DETAILS
+
+We have noted that the full street address (Address Line 1) and the Licensing Authority are not included in the source spreadsheet for most rows, and we understand why – these were handled separately in your manual process. These two pieces of information are required for the CRM import, so ID Inquiries will need to backfill them directly into the source spreadsheet before we can run the import.
+
+We know this means some manual work on your end and we appreciate that. If it helps, once you send us the full spreadsheet we can identify exactly which rows are missing this information so you know precisely where the gaps are, rather than having to check every row yourself.
+
+On the Licensing Authority specifically – in many cases you will already have this from the council correspondence records (PLH DPS details column), so it may be a case of simply copying it across.
+
+---
+
+CONFIDENTIALITY OF THE FILE
+
+We want to acknowledge your request regarding the restricted nature of the extract. The file will only be accessed by the members of our team directly working on this migration and will be deleted from our systems once the import work is completed. It will not be shared with any third parties or used for any purpose other than this migration.
+
+---
+
+REINSTRUCTION TYPE
+
+We noticed that one of the rows in your extract is marked as Reinstruction (Angel's Rest). We just want to confirm how you would like these handled at import stage – should Reinstruction records be treated identically to Basic instructions in terms of the import process, or is there anything specific about them we need to be aware of? If they are simply a repeat visit to the same premises, we will treat them the same way and link them to the existing premises record.
+
+---
+
+ON HOLD INSTRUCTIONS
+
+We also noticed that Harry's Bar in your extract has ON HOLD entered in the Investigator Assigned column rather than an investigator name. We will treat this as an On Hold instruction and set the CRM stage accordingly – it will not appear in the Assignment Map or the Investigator Portal while on hold, which is correct behaviour. When you are ready to resume it, you simply move it back to Ready for Allocation in the CRM and assign via the Assignment Map as normal. No action needed from you on this – just confirming how we are reading it.
+
+---
+
+RECORD COUNT
+
+Understood that the final number may come in lower than the 350 estimate. That is fine – it has no impact on the migration process either way. Please do not hold off sending the full file on account of this.
+
+---
+
+NEXT STEPS
+
+Once you are able to send the full spreadsheet, here is what we will need from you alongside it:
+
+1. The full spreadsheet with the colour coding applied consistently throughout (Orange = On Hold, White = Unallocated, Yellow = Ready for Allocation)
+2. Street address (Address Line 1) and Licensing Authority filled in for each premises – or let us know if you would prefer us to flag the gaps first after reviewing the full file
+3. Confirmation of the Reinstruction handling (as above)
+4. Whenever you are ready – confirmation of which client portal users you would like set up and their email addresses
+
+Everything else we can take from the source file directly. We are ready to move quickly once we have the above.
+
+Please do not hesitate to come back to us if anything needs clarifying. We are keen to get this live for you as soon as possible.
+
+Kind regards,
+
+Sam
+A2Z Cloud – Zoho Development Team
+Project #4593 – ID Inquiries Ltd

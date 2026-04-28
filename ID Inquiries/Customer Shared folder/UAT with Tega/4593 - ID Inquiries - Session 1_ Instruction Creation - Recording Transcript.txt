@@ -1,0 +1,397 @@
+OK, hello.
+
+Hi Teka.
+
+Hi.
+
+How are you? How are you doing? Good.
+
+I am good.
+
+Hello morning.
+
+Okay.
+
+Let's get started with the training.
+
+Okay.
+
+Okay.
+
+So thank you everyone being here.
+
+So obviously everything is broken down session by session.
+
+Just so it's easier for us to show then you guys to walk through and then ask any questions specifically related to that to the session.
+
+So what I would do is I'll just quickly share my screen and just talk through High Level because you know, once again, I want you guys to actually do it rather than me just clicking around bouncing everywhere.
+
+You're not well Alison, she looks sick, She say she's got very severe Do cold.
+
+Oh my god, hope she feels better.
+
+Well done.
+
+Yeah.
+
+So who will be doing this section? The instruction section now? Melissa? Yeah, alright, Okay.
+
+So yeah, so quickly.
+
+I'll just talk through.
+
+This is not the, this is the overview view.
+
+So yeah, we've made some UI changes to the report so they're a lot more easier to across and self-explanatory.
+
+And that's one of the major changes.
+
+Everything else is in the back end.
+
+So when you're ready, Melissa, if you can, I'll stop sharing.
+
+And then if you share your screen and login as the client, there's two ways to create an instruction.
+
+There's login in as the client and then there's ID create in the instruction in CRM on behalf of the client.
+
+So we'll do the from the client portal first.
+
+Okay, I'm to login here that't have any.
+
+Okay, No worries, I will send the link.
+
+Yeah.
+
+I think we'll have to give her the create a portal link if you give me the link to go to that.
+
+Thank you.
+
+Yeah, yeah, Yeah.
+
+Are you having difficulties in sharing screen? Melissa? I'm just trying to log on.
+
+Okay, I share the screen share.
+
+Can you guys see the screen? Yes, Yeah, perfect Okay, Okay, Okay so yeah Okay so yeah if you just fill in this instruction and then hit submit at The Bottom, I've never done this before this will actually need so it links to the map.
+
+J.
+
+Peter said then I'll come up cause you and Matthew and Adam are the best for the address.
+
+No, that.1 just join a, I want if it's really important.
+
+Yeah, bye bye email 54 alpha or alpha and I what would that beish? Yeah, What? So yeah, if you don't have the information for these, it's not mandatory for them to put it in hey until she's got one right? And then just subm Yes, that's that's easy Okay? Yeah.
+
+So after submission it will take you to the second screen which yeah you can see at the top.
+
+Yeah, Yeah, the stage is there so they just know where it's at.
+
+It's not a like for like stage mapping because the stage is more internal for you guys.
+
+But yeah, it just keeps the customer in check, not in check.
+
+They know where you are.
+
+So this is the client.
+
+This is how the client will create the instruction.
+
+I just wanted to ask, Is there any questions, thoughts, comments about that whole process? Do you think that would be for clients? Stre What they said? Yeah, that seems to be really good.
+
+That to me, it seems straightforward enough that they couldn't really get it wrong.
+
+It looks basically the fields that they need to follow are there or they and I don't think there's anything mean speed to type and instructions.
+
+I got to have the go to an instruction field of the a lot of potential data because some instructions are quite big.
+
+It depends on.
+
+I think the the fields are quite basic for now, but I don't know if there was a requirement for additional additional fields.
+
+No free text that I think John, John means as the free text also there is a limit I think is about 502,000.
+
+It's large than 2000 word limit.
+
+I should be John for.
+
+The only thing I would say is you can see, you can see everything here bar the music tracks available that does that just is that because it's becomes part of the report.
+
+Would that not be a yes.
+
+So no it, it wouldn't be on here because it will become part of the part of the report.
+
+In one of the later sessions we will actually still send them the document, a link to the document when the music files are available, But once they download the report, they'll see the music tracks and the invoice.
+
+Okay.
+
+Okay.
+
+So Melissa, if you can just login to CRM now do you have a link? Yeah, That would be your Zoho One login.
+
+Did you ever actually set that UPA? Well, I don't know because MA, my login was always a test one, I was always kind of a lawyer one.
+
+Okay, I know that only one knew it was was like, I know MA and Allison's login that we got to test MAS was as a client proof wasn't Mat Zoho One on Zoho Zoho.
+
+If I can get into it with either me or Gregory's, I'll just do it to see.
+
+I think I can get in with Gregory's.
+
+So do you want me to share the screen? screen? I go to share us all again.
+
+You are somewhere here.
+
+Can you all see that? No, not yet.
+
+Okay.
+
+It's not its entire screen, entire screen and then there's no thing for it.
+
+Then to say you go ahead.
+
+Oh, Okay, see Nathan collect on Bundu and then it came up with what tab you wanted to show.
+
+So either it will show you this meeting tab or entire screen.
+
+Then we can get to the Zoho One tab.
+
+Yeah, of course.
+
+Yeah, I've got that, but what I'm saying is when I'm pressing window it's it's, you can see the scare around it, but then there's nothing the double clicker or something or it should be like a, you know, to share audio, share the tab or screen.
+
+ANDE, that's all says that morning.
+
+I know that there will be a share that or nothing.
+
+Okay, Stop and reshare it again.
+
+I was, I I sent a screenshot on how it should look like.
+
+Yeah, I can't, I can't actually get read the thing that's taken over from my screen asking here.
+
+I think this has been the first thing.
+
+Yeah, yeah, Okay, Okay, let me share.
+
+Maybe I can use that overwrite.
+
+Okay.
+
+What I would do is Melissa, I've added you to CRM now.
+
+Okay.
+
+I will send you a another invitation.
+
+Remember my password.
+
+So you should have gotten a reset password to your Melissa at.anderson got a link for it.
+
+I can get onto Creator and CNM but I'm not going through yet for an email password.
+
+So that would be the link.
+
+But you need to if you don't know your Zoho login in the email, there will be a link to reset the password.
+
+So you need to reset your your password because it's not the same as the client profile.
+
+I've clicked on it and it's coming up.
+
+It can let me sign-in, but it will let me sign-in as Anderson.
+
+Okay.
+
+So can you show your screen? Sorry.
+
+That's all I see.
+
+Okay.
+
+Did you get any email? Well, I go, I go that email.
+
+Yeah.
+
+If you can bring the email up on screen.
+
+Thank you.
+
+Can you see the host ranges like slogan? Yes, Right.
+
+Okay.
+
+So when I go to my emails, this is what I can see.
+
+Okay.
+
+There should be a second email.
+
+There's nothing.
+
+That's all the email.
+
+Okay.
+
+Now give me a SEC.
+
+Okay.
+
+I'm sorry.
+
+Can you open the CRM screen the login page again? Can you just say sign-in using email OTP.
+
+Okay.
+
+Yeah.
+
+It will send you a code.
+
+That's not my email address.
+
+I don't know your email address that is, but it's definitely not mine.
+
+Can you click back and can you put in your email If you scroll down, there will be a Yeah.
+
+Remind in two weeks.
+
+Yes.
+
+Yeah.
+
+Okay.
+
+So if you go to the instructions tab, so let's just double-check that that instruction, the first one that you created has come in.
+
+Yeah.
+
+Yeah.
+
+So that's the barnyard.
+
+So that's the first way of creating a instruction.
+
+Now the second way is you guys can create the instruction on behalf of the client.
+
+So if you at a top say create instruction, you should never really have to do that.
+
+We should Okay.
+
+Sometimes right, Okay.
+
+So yeah if you just put in the instruction name, you can just put in anything right Okay for client name if you type Yeah.
+
+If you click your name Mani Yeah.
+
+Melissa Yeah.
+
+Specific instructions yet leave the client account name that's that's so check for music Okay.
+
+Yeah.
+
+If you know the client reference Yeah, then the instruction type so if it's Okay if you Yeah, if you know the priority level and then just a day Yes.
+
+And you have to put in if you scroll down, you have to put in the premises so you can choose from an existing premises that you have or you can create one.
+
+So if you click on the box that's what Yeah, yeah, yeah.
+
+So yeah, if you already have an existing premises, you can choose that one.
+
+If not just click new premise at the top right.
+
+And yeah premises name similar to how it is for the customer address line one address Line2 city, county, country post code cinema gets and stuff and it's little is 52 to 58 Main Street Fear 3727 EP that Okay.
+
+And then just Okay, yeah, that but should not say primary licenses should say premise Oh that's should say premise yeah, yeah, instead of premise Yeah, I would change that now name right, and then that just save and associate yes.
+
+And yeah, obviously those fields are still on there, but don't worry, the information will copy across from the premises.
+
+So once you're done to say save at the top top, right? And that is your instruction created on behalf of the client, the emails will also go out and letting them know that the instruction that developed a new instruction and also if you still have the tab open for the client, Yeah.
+
+And just refresh the screen.
+
+Yeah.
+
+So it will appear here and basically then you can just follow the same, the same process.
+
+Okay.
+
+So it's in the lake.
+
+So if we ever had to do this like for the Wetherspoon is that see we've already done up as try to do again just as again so is that you then so we just the payments that it was but it's a new instruction, Okay.
+
+And instruction instructions, I'm sorry.
+
+Can you say that again? When an instruction type you don't know either nor or for the instruction on you can priority no instruction tape instruction tape.
+
+Well not know that.
+
+Well that's well we need that now because can we can go to the premises and not be able to see all the instructions against that premises.
+
+So you would know by the day that that was a re-instruction? Yeah, Yeah, so sorry everyone.
+
+Are you just saying that? You're just trying to flag up what's a reinstruction vs what's a new instruction? Yeah, because if it coin new instructions, Join said sometime the email him directly ask could you get that another visit? So we and it's not as a new instruction the instruction.
+
+So would you not need? I'm not sure you would because see, see if you go to if you go to the premises, you always see every instruction against that.
+
+The only reason we needed that in the post in the spreadsheet is because we couldn't link it to to any other way because all that you will see on the system is live instructions and does it? Does it matter whether it's a new instruction or a repeat instruction? The original instruction will surely would have been completed so that we have the same name instructions in the same time.
+
+If you, I mean, it depends if you want to join, Do you need? Do you need to know that when you're allocate? No, not really.
+
+I'm working if we should do it like if you're putting a new EFF, see we're having to do again we put the instruction order and what and like about this specific notes, that's where introduction, just that it's noted down the video said the top in the stage where Jackie process is, it shouldn't the fact that we visited that before going to be flagged up and she's processing it, that premise is actually already on the system.
+
+I think, I think what I would do for good practice is whenever a new instruction comes in, I would look at the premises to see if we've had something before.
+
+That's what I would do.
+
+And when you allocate asuel, I would have a Quick Check in the premises SA, I would go to visit save before such and such an investigator did it.
+
+That's what I would do.
+
+But in the last couple of weeks is we're getting the instructions as fresh instructions and the system will help because it was all going to the premises.
+
+That makes sense, I guess.
+
+And some new we need to make sure we're checking because we've done this before you can, but they want to maybe instruction rather than a Yeah.
+
+So we can definitely add a visual flag in the instruction in CRM.
+
+Yeah.
+
+Just because the criteria is easy if the premises already exist, then it's a re-instruction if it doesn't, if it doesn't exist.
+
+So I'm, I'm missed my words.
+
+If it does exist, it's a re-instruction.
+
+If it doesn't exist, it's a new instruction.
+
+So we'll put in the flag in CRM, but we're not Gonna, I don't think that should be the responsibility of the client to specify Since we already have the system handling most of these and it will just be be more of a flag for you guys vs for the for the client.
+
+Yeah, Okay, just take a note of that, Jonathan.
+
+It's the we reached, we have to train the client if they're put in and they put the whole details, but if they're putting the instruction in, the premises will already be there, so they'll be able to pick that up when they're put in the instruction.
+
+I think we just have to tell them.
+
+Okay.
+
+So yeah, that is everything for creating the instruction.
+
+Any questions, thoughts, comments? No, but it working the way it's working.
+
+That should be fairly straight, fairly straightforward to put instructions on and if we ever have put them one manually.
+
+Okay.
+
+No worries.
+
+So in the second session we will pick up where you guys go through, do all the premises checks and everything.
+
+So we'll continue with the instructions that you've created, Melissa, and just walk away from start to finish.
+
+Okay.
+
+So if no questions, class dismissed for now and I'll see you guys soon.
+
+Okay, Alright, great.
+
+Thank you too.
+
+Bye.

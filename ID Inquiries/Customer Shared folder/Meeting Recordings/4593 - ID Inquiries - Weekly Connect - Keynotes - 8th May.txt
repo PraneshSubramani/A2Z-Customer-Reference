@@ -1,0 +1,33 @@
+1. Attendees: All participants
+Agenda: 
+1. Update on form and instructor assignment
+2. Demonstration of new system features
+3. Discussion on email templates for investigators
+4. Decision on notification for rejected assignments
+
+Discussion:
+- Participants greeted each other and discussed technical issues with audio and video.
+- Update on form and instructor assignment was provided, with completion of the task and plans for the next steps.
+- A demonstration of the new system features was given, including the assignment process and email templates for investigators.
+- Questions and clarifications were raised regarding the system features and the process for rejected assignments.
+
+Action items:
+- Tega to provide a walkthrough of the completed form and instructor assignment.
+- Further customization and formatting of the system to
+ accommodate the new features discussed.
+- John to review and finalize the email templates for investigators.
+- Decision made to implement a notification system for rejected assignments, with prompts and follow-up actions for investigators.
+- Further discussion and decision on the notification process for rejected assignments to be continued in the next meeting.
+- Next steps include providing a walkthrough of the completed form and instructor assignment by Tega, further customization and formatting of the system to accommodate new features, and John to review and finalize email templates for investigators.
+- Decision made to implement a notification system for rejected assignments, with prompts and follow-up actions for investigators.
+- Further discussion and decision on the notification process for rejected assignments to be continued in the next meeting.
+- Participants to provide feedback and suggestions for improvement on the new system features.
+- Tega to provide a timeline for the completion of the portal access and sandbox testing for investigators.
+- Melissa to gather and provide the names and postcodes of actual investigators for demonstration purposes.
+- Participants to review and finalize the logic and flow of the system for investigators to access and revisit site visit reports.
+- Reminder to send necessary information to Melissa before the next meeting, as one participant will be on holiday.
+- Follow-up on the decision to give sandbox access to investigators once portal access is set up, with an estimated timeline of two weeks.
+- Confirmation to send festival stage and live jukebox questions to investigators, along with their names and postcodes.
+
+Next meeting:
+

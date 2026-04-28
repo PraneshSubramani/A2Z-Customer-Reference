@@ -1,0 +1,16 @@
+1. Meeting started with a discussion about the timing of the meeting and a mix-up in the schedule. Apologies were made for the confusion and misspelling of names.
+
+2. Introductions were made for the project team members and their roles in the development activities.
+
+3. The team discussed the scope of work and the need to rebuild from scratch based on changes and feedback.
+
+4. It was agreed to have weekly meetings on Thursdays at 11 am.
+
+5. The client expressed willingness to put in more time if needed to meet the project deadline.
+
+Next steps: 
+- The team will start development activities and provide regular demos for feedback.
+- Weekly meetings will be scheduled for progress updates and feedback.
+- The team will collaborate with the client's team for data migration and aligning on the CRM structure.
+- The client will provide the brand guide and color scheme for the design elements.
+- The financial director will be involved in the decision-making process for Zoho Books integration at the appropriate stage of the project.

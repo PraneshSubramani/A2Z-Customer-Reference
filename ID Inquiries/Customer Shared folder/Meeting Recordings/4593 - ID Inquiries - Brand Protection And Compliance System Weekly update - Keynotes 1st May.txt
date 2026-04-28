@@ -1,0 +1,43 @@
+1. Introduction and welcome
+2. Jackie's role in the office
+3. John and NASA's invitation
+4. Andy's questions for John
+5. Premises module update
+6. Feedback and improvements
+7. Approval process in CRM
+8. Client referencing and mandatory fields
+9. Approval process in CRM
+10. Email integration in CRM
+11. Sending emails from CRM and related list of emails with customers
+12. Follow-up task creation and flexibility
+13. Closing premises check and allocation readiness
+14. Discussion on email templates and updates
+15. Confirmation of email usage and updates
+16. Completion of premises check and color coding options
+17. Next steps and action items
+18. Confirmation of necessary information for email usage
+19. Update on Freedom of Information request
+20. Discussion on updating email templates in CRM
+21. Confirmation of email template updates in CRM
+22. Color coding options for completion stages in CRM
+23. Closing remarks and conclusion of meeting.
+24. Next week's agenda: Investigator process
+25. Flow and demo of investigator process
+26. Prompting investigators based on type of premises
+27. Mapping for specific prompts based on premises type
+28. Feedback and comments on the system
+29. Confirmation of system functionality and ease of use
+30. Action items for next week's meeting
+31. Conclusion of meeting and thank you.
+32. Follow-up on specific color schemes for different statuses
+33. Discussion on the best option for areas covered in the investigator process
+34. Confirmation of the multi-select option for areas covered in the investigator process
+35. Consideration of scalability for the investigator process
+36. Confirmation of the best way to categorize investigators
+37. Agreement on the scalability and flexibility of the investigator process
+38. Closing remarks and conclusion of meeting
+39. Next steps and action items
+40. Confirmation of necessary information for investigator process
+41. Update on Freedom of Information request
+42. Confirmation of investigator process updates
+43. Thank you and conclusion of meeting.

@@ -1,0 +1,25 @@
+1. Attendees: Melissa, John, Jackie
+
+Agenda:
+- Update on site visit form and rejection workflow
+- WorkDrive integration
+- Folder structure and automation
+- List of investigators and site visit link generation
+- Invoice submission process
+
+Discussion:
+- Melissa provided an update on the site visit form, including minor field updates and the rejection workflow for investigators. She also discussed the integration of WorkDrive and the automation of folder creation for each client account and instruction.
+- She demonstrated the process of updating the investigator list and generating the site visit link, as well as the submission of invoices and completion of the site visit form.
+- Melissa also highlighted the additional fields for specific items such as jukeboxes and the calculation of expenses.
+
+Next Steps:
+-
+1. Melissa will work on implementing the changes discussed, including the automation of folder creation and the integration of WorkDrive.
+2. John will review the site visit form and provide feedback on the rejection workflow and invoice submission process.
+3. Jackie will provide input on the folder structure and automation process, as well as the list of investigators and site visit link generation.
+4. The team will take a recess from the next week's demo to focus on putting things in the different portals and sections, ensuring everything is functioning properly before the next demonstration.
+
+5. The next meeting is scheduled for May 29th to review the progress on the profile management and structured demo. In the meantime, any questions or additional information can be sent via email.
+6. Alison will be informed of the change in the meeting schedule due to her absence this week.
+7. If any questions arise, a short call will be organized after discussing with the team. 
+8. The meeting concluded with a thank you to everyone for their input and collaboration.

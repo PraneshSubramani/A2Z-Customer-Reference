@@ -1,0 +1,1670 @@
+{
+  "generated_at": "2026-04-24T06:56:15Z",
+  "modules": [
+    {
+      "api_name": "Premises",
+      "module_name": "CustomModule1",
+      "picklist_fields": [
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            },
+            {
+              "label": "Trash",
+              "value": "Trash"
+            }
+          ]
+        },
+        {
+          "field_name": "Unsubscribed Mode",
+          "api_name": "Unsubscribed_Mode",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Consent form",
+              "value": "Consent form"
+            },
+            {
+              "label": "Manual",
+              "value": "Manual"
+            },
+            {
+              "label": "Unsubscribe link",
+              "value": "Unsubscribe link"
+            },
+            {
+              "label": "Zoho campaigns",
+              "value": "Zoho campaigns"
+            }
+          ]
+        },
+        {
+          "field_name": "Premises Status",
+          "api_name": "Premises_Status",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Approved",
+              "value": "Approved"
+            },
+            {
+              "label": "Not Approved",
+              "value": "Not Approved"
+            }
+          ]
+        },
+        {
+          "field_name": "Premises Source",
+          "api_name": "Premises_Source",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "CRM",
+              "value": "CRM"
+            },
+            {
+              "label": "Portal",
+              "value": "Portal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Deals",
+      "module_name": "Deals",
+      "picklist_fields": [
+        {
+          "field_name": "Stage",
+          "api_name": "Stage",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "OPEN",
+              "value": "Qualification"
+            },
+            {
+              "label": "QUERY WITH THE CLIENT",
+              "value": "QUERY WITH THE CLIENT"
+            },
+            {
+              "label": "COMPLETED CHECKS - READY FOR ALLOCATION",
+              "value": "COMPLETED CHECKS - READY FOR ALLOCATION"
+            },
+            {
+              "label": "ON HOLD",
+              "value": "Id. Decision Makers"
+            },
+            {
+              "label": "INSTRUCTION ALLOCATED",
+              "value": "Proposal/Price Quote"
+            },
+            {
+              "label": "VISIT COMPLETE",
+              "value": "Negotiation/Review"
+            },
+            {
+              "label": "VISIT UNDER REVIEW",
+              "value": "Closed Won"
+            },
+            {
+              "label": "REPORT COMPLETE/AVAILABLE",
+              "value": "Closed Lost"
+            },
+            {
+              "label": "AUDIO FILES AVAILABLE",
+              "value": "Closed Lost to Competition"
+            },
+            {
+              "label": "INSTRUCTION COMPLETE",
+              "value": "INVOICE AVAILABLE"
+            }
+          ]
+        },
+        {
+          "field_name": "Pipeline",
+          "api_name": "Pipeline",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Music",
+              "value": "Music"
+            }
+          ]
+        },
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        },
+        {
+          "field_name": "Instruction Type",
+          "api_name": "Instruction_Type",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Cafe",
+              "value": "Cafe"
+            },
+            {
+              "label": "Nightclub",
+              "value": "Nightclub"
+            },
+            {
+              "label": "Shop",
+              "value": "Shop"
+            },
+            {
+              "label": "Stripclub",
+              "value": "Stripclub"
+            },
+            {
+              "label": "Gentleman’s Club",
+              "value": "Gentleman’s Club"
+            },
+            {
+              "label": "Pub/Bar – background",
+              "value": "Pub/Bar – background"
+            },
+            {
+              "label": "Pub/Bar – event",
+              "value": "Pub/Bar – event"
+            },
+            {
+              "label": "Restaurant//Café",
+              "value": "Restaurant//Café"
+            },
+            {
+              "label": "Shop – High Street",
+              "value": "Shop – High Street"
+            },
+            {
+              "label": "Shop – Warehouse/Industrial",
+              "value": "Shop – Warehouse/Industrial"
+            },
+            {
+              "label": "Beauty Salon",
+              "value": "Beauty Salon"
+            },
+            {
+              "label": "Barber (Gents)",
+              "value": "Barber (Gents)"
+            },
+            {
+              "label": "Hairdresser",
+              "value": "Hairdresser"
+            },
+            {
+              "label": "Nail Salon",
+              "value": "Nail Salon"
+            },
+            {
+              "label": "Tattoo Parlour",
+              "value": "Tattoo Parlour"
+            },
+            {
+              "label": "Gym",
+              "value": "Gym"
+            },
+            {
+              "label": "Hotel – Bedroom",
+              "value": "Hotel – Bedroom"
+            },
+            {
+              "label": "Hotel – Common Areas",
+              "value": "Hotel – Common Areas"
+            },
+            {
+              "label": "Festival",
+              "value": "Festival"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            }
+          ]
+        },
+        {
+          "field_name": "Priority Level",
+          "api_name": "Priority_Level",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Specific Date/Event",
+              "value": "Specific Date/Event"
+            },
+            {
+              "label": "High",
+              "value": "High"
+            },
+            {
+              "label": "Normal",
+              "value": "Normal"
+            }
+          ]
+        },
+        {
+          "field_name": "Instruction Source",
+          "api_name": "Instruction_Source",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "CRM",
+              "value": "CRM"
+            },
+            {
+              "label": "Portal",
+              "value": "Portal"
+            }
+          ]
+        },
+        {
+          "field_name": "Instruction Category",
+          "api_name": "Instruction_Category",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Reinstruction",
+              "value": "Reinstruction"
+            },
+            {
+              "label": "New Instruction",
+              "value": "New Instruction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Premises_Checks",
+      "module_name": "CustomModule2",
+      "picklist_fields": [
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            },
+            {
+              "label": "Trash",
+              "value": "Trash"
+            }
+          ]
+        },
+        {
+          "field_name": "Unsubscribed Mode",
+          "api_name": "Unsubscribed_Mode",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Consent form",
+              "value": "Consent form"
+            },
+            {
+              "label": "Manual",
+              "value": "Manual"
+            },
+            {
+              "label": "Unsubscribe link",
+              "value": "Unsubscribe link"
+            },
+            {
+              "label": "Zoho campaigns",
+              "value": "Zoho campaigns"
+            }
+          ]
+        },
+        {
+          "field_name": "How to Apply for Details",
+          "api_name": "How_to_Apply_for_Details",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Public Register Online",
+              "value": "Public Register Online"
+            },
+            {
+              "label": "Email",
+              "value": "Email"
+            },
+            {
+              "label": "Form Submitted",
+              "value": "Form Submitted"
+            }
+          ]
+        },
+        {
+          "field_name": "Check Status",
+          "api_name": "Check_Status",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "New",
+              "value": "New"
+            },
+            {
+              "label": "In Progress",
+              "value": "In Progress"
+            },
+            {
+              "label": "Awaiting Response",
+              "value": "Awaiting Response"
+            },
+            {
+              "label": "Closed - Complete",
+              "value": "Closed - Complete"
+            },
+            {
+              "label": "Closed - Incomplete",
+              "value": "Closed - Incomplete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Investigators",
+      "module_name": "CustomModule3",
+      "picklist_fields": [
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            },
+            {
+              "label": "Trash",
+              "value": "Trash"
+            }
+          ]
+        },
+        {
+          "field_name": "Unsubscribed Mode",
+          "api_name": "Unsubscribed_Mode",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Consent form",
+              "value": "Consent form"
+            },
+            {
+              "label": "Manual",
+              "value": "Manual"
+            },
+            {
+              "label": "Unsubscribe link",
+              "value": "Unsubscribe link"
+            },
+            {
+              "label": "Zoho campaigns",
+              "value": "Zoho campaigns"
+            }
+          ]
+        },
+        {
+          "field_name": "Exclusions",
+          "api_name": "Exclusions",
+          "data_type": "multiselectpicklist",
+          "options": [
+            {
+              "label": "Nightclub",
+              "value": "Nightclub"
+            },
+            {
+              "label": "Stripclub",
+              "value": "Stripclub"
+            },
+            {
+              "label": "Gentleman’s Club",
+              "value": "Gentleman’s Club"
+            },
+            {
+              "label": "Pub/Bar – background",
+              "value": "Pub/Bar – background"
+            },
+            {
+              "label": "Pub/Bar – event",
+              "value": "Pub/Bar – event"
+            },
+            {
+              "label": "Restaurant//Café",
+              "value": "Restaurant//Café"
+            },
+            {
+              "label": "Shop – High Street",
+              "value": "Shop – High Street"
+            },
+            {
+              "label": "Shop – Warehouse/Industrial",
+              "value": "Shop – Warehouse/Industrial"
+            },
+            {
+              "label": "Beauty Salon",
+              "value": "Beauty Salon"
+            },
+            {
+              "label": "Barber (Gents)",
+              "value": "Barber (Gents)"
+            },
+            {
+              "label": "Hairdresser",
+              "value": "Hairdresser"
+            },
+            {
+              "label": "Nail Salon",
+              "value": "Nail Salon"
+            },
+            {
+              "label": "Tattoo Parlour",
+              "value": "Tattoo Parlour"
+            },
+            {
+              "label": "Gym",
+              "value": "Gym"
+            },
+            {
+              "label": "Hotel – Bedroom",
+              "value": "Hotel – Bedroom"
+            },
+            {
+              "label": "Hotel – Common Areas",
+              "value": "Hotel – Common Areas"
+            },
+            {
+              "label": "Festival",
+              "value": "Festival"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            }
+          ]
+        },
+        {
+          "field_name": "Skillset",
+          "api_name": "Skillset",
+          "data_type": "multiselectpicklist",
+          "options": [
+            {
+              "label": "Option 1",
+              "value": "Option 1"
+            },
+            {
+              "label": "Option 2",
+              "value": "Option 2"
+            }
+          ]
+        },
+        {
+          "field_name": "Areas Covered",
+          "api_name": "Areas_Covered",
+          "data_type": "multiselectpicklist",
+          "options": [
+            {
+              "label": "South",
+              "value": "South"
+            },
+            {
+              "label": "Scotland",
+              "value": "Scotland"
+            },
+            {
+              "label": "South West",
+              "value": "South West"
+            },
+            {
+              "label": "North East",
+              "value": "North East"
+            },
+            {
+              "label": "North",
+              "value": "North"
+            },
+            {
+              "label": "North West",
+              "value": "North West"
+            },
+            {
+              "label": "South East",
+              "value": "South East"
+            },
+            {
+              "label": "South East",
+              "value": "South East"
+            },
+            {
+              "label": "North West",
+              "value": "North West"
+            },
+            {
+              "label": "South West",
+              "value": "South West"
+            },
+            {
+              "label": "North East",
+              "value": "North East"
+            },
+            {
+              "label": "Yorkshire and the Humber",
+              "value": "Yorkshire and the Humber"
+            },
+            {
+              "label": "East of England",
+              "value": "East of England"
+            },
+            {
+              "label": "London",
+              "value": "London"
+            },
+            {
+              "label": "West Midlands",
+              "value": "West Midlands"
+            },
+            {
+              "label": "East Midlands",
+              "value": "East Midlands"
+            },
+            {
+              "label": "Wales",
+              "value": "Wales"
+            },
+            {
+              "label": "Islands",
+              "value": "Islands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Contacts",
+      "module_name": "Contacts",
+      "picklist_fields": [
+        {
+          "field_name": "Salutation",
+          "api_name": "Salutation",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Mr.",
+              "value": "Mr."
+            },
+            {
+              "label": "Mrs.",
+              "value": "Mrs."
+            },
+            {
+              "label": "Ms.",
+              "value": "Ms."
+            },
+            {
+              "label": "Dr.",
+              "value": "Dr."
+            },
+            {
+              "label": "Prof.",
+              "value": "Prof."
+            }
+          ]
+        },
+        {
+          "field_name": "Unsubscribed Mode",
+          "api_name": "Unsubscribed_Mode",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Consent form",
+              "value": "Consent form"
+            },
+            {
+              "label": "Manual",
+              "value": "Manual"
+            },
+            {
+              "label": "Unsubscribe link",
+              "value": "Unsubscribe link"
+            },
+            {
+              "label": "Zoho campaigns",
+              "value": "Zoho campaigns"
+            }
+          ]
+        },
+        {
+          "field_name": "Enrich Status",
+          "api_name": "Enrich_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Enriched",
+              "value": "Enriched"
+            },
+            {
+              "label": "Data not found",
+              "value": "Data not found"
+            }
+          ]
+        },
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Accounts",
+      "module_name": "Accounts",
+      "picklist_fields": [
+        {
+          "field_name": "Rating",
+          "api_name": "Rating",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Acquired",
+              "value": "Acquired"
+            },
+            {
+              "label": "Active",
+              "value": "Active"
+            },
+            {
+              "label": "Market Failed",
+              "value": "Market Failed"
+            },
+            {
+              "label": "Project Cancelled",
+              "value": "Project Cancelled"
+            },
+            {
+              "label": "Shut Down",
+              "value": "ShutDown"
+            }
+          ]
+        },
+        {
+          "field_name": "Client Account Type",
+          "api_name": "Account_Type",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Analyst",
+              "value": "Analyst"
+            },
+            {
+              "label": "Competitor",
+              "value": "Competitor"
+            },
+            {
+              "label": "Customer",
+              "value": "Customer"
+            },
+            {
+              "label": "Distributor",
+              "value": "Distributor"
+            },
+            {
+              "label": "Investor",
+              "value": "Investor"
+            },
+            {
+              "label": "Integrator",
+              "value": "Integrator"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Press",
+              "value": "Press"
+            },
+            {
+              "label": "Prospect",
+              "value": "Prospect"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            },
+            {
+              "label": "Reseller",
+              "value": "Reseller"
+            },
+            {
+              "label": "Supplier",
+              "value": "Supplier"
+            },
+            {
+              "label": "Vendor",
+              "value": "Vendor"
+            }
+          ]
+        },
+        {
+          "field_name": "Ownership",
+          "api_name": "Ownership",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            },
+            {
+              "label": "Private",
+              "value": "Private"
+            },
+            {
+              "label": "Public",
+              "value": "Public"
+            },
+            {
+              "label": "Subsidiary",
+              "value": "Subsidiary"
+            },
+            {
+              "label": "Partnership",
+              "value": "Partnership"
+            },
+            {
+              "label": "Government",
+              "value": "Government"
+            },
+            {
+              "label": "Privately Held",
+              "value": "Privately Held"
+            },
+            {
+              "label": "Public Company",
+              "value": "Public Company"
+            }
+          ]
+        },
+        {
+          "field_name": "Industry",
+          "api_name": "Industry",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "ASP (Application Service Provider)",
+              "value": "ASP (Application Service Provider)"
+            },
+            {
+              "label": "Data/Telecom OEM",
+              "value": "Data/Telecom OEM"
+            },
+            {
+              "label": "ERP (Enterprise Resource Planning)",
+              "value": "ERP (Enterprise Resource Planning)"
+            },
+            {
+              "label": "Government/Military",
+              "value": "Government/Military"
+            },
+            {
+              "label": "Large Enterprise",
+              "value": "Large Enterprise"
+            },
+            {
+              "label": "ManagementISV",
+              "value": "ManagementISV"
+            },
+            {
+              "label": "MSP (Management Service Provider)",
+              "value": "MSP (Management Service Provider)"
+            },
+            {
+              "label": "Network Equipment Enterprise",
+              "value": "Network Equipment (Enterprise)"
+            },
+            {
+              "label": "Non-management ISV",
+              "value": "Non-management ISV"
+            },
+            {
+              "label": "Optical Networking",
+              "value": "Optical Networking"
+            },
+            {
+              "label": "Service Provider",
+              "value": "Service Provider"
+            },
+            {
+              "label": "Small/Medium Enterprise",
+              "value": "Small/Medium Enterprise"
+            },
+            {
+              "label": "Storage Equipment",
+              "value": "Storage Equipment"
+            },
+            {
+              "label": "Storage Service Provider",
+              "value": "Storage Service Provider"
+            },
+            {
+              "label": "Systems Integrator",
+              "value": "Systems Integrator"
+            },
+            {
+              "label": "Wireless Industry",
+              "value": "Wireless Industry"
+            },
+            {
+              "label": "Financial Services",
+              "value": "Financial Services"
+            },
+            {
+              "label": "Education",
+              "value": "Education"
+            },
+            {
+              "label": "Technology",
+              "value": "Technology"
+            },
+            {
+              "label": "Real Estate",
+              "value": "Real Estate"
+            },
+            {
+              "label": "Consulting",
+              "value": "Consulting"
+            },
+            {
+              "label": "Communications",
+              "value": "Communications"
+            },
+            {
+              "label": "Manufacturing",
+              "value": "Manufacturing"
+            }
+          ]
+        },
+        {
+          "field_name": "Enrich Status",
+          "api_name": "Enrich_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Enriched",
+              "value": "Enriched"
+            },
+            {
+              "label": "Data not found",
+              "value": "Data not found"
+            }
+          ]
+        },
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Tasks",
+      "module_name": "Tasks",
+      "picklist_fields": [
+        {
+          "field_name": "Status",
+          "api_name": "Status",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Not Started",
+              "value": "Not Started"
+            },
+            {
+              "label": "Deferred",
+              "value": "Deferred"
+            },
+            {
+              "label": "In Progress",
+              "value": "In Progress"
+            },
+            {
+              "label": "Completed",
+              "value": "Completed"
+            },
+            {
+              "label": "Waiting for input",
+              "value": "Waiting on someone else"
+            }
+          ]
+        },
+        {
+          "field_name": "Priority",
+          "api_name": "Priority",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "High",
+              "value": "High"
+            },
+            {
+              "label": "Highest",
+              "value": "Highest"
+            },
+            {
+              "label": "Low",
+              "value": "Low"
+            },
+            {
+              "label": "Lowest",
+              "value": "Lowest"
+            },
+            {
+              "label": "Normal",
+              "value": "Normal"
+            }
+          ]
+        },
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "DealHistory",
+      "module_name": "DealHistory",
+      "picklist_fields": [
+        {
+          "field_name": "Stage",
+          "api_name": "Stage",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "OPEN",
+              "value": "Qualification"
+            },
+            {
+              "label": "QUERY WITH CLIENT  ",
+              "value": "Needs Analysis"
+            },
+            {
+              "label": "QUERY WITH THE CLIENT",
+              "value": "QUERY WITH THE CLIENT"
+            },
+            {
+              "label": "CHECKS COMPLETED - READY FOR ALLOCATION  ",
+              "value": "Value Proposition"
+            },
+            {
+              "label": "COMPLETED CHECKS - READY FOR ALLOCATION",
+              "value": "COMPLETED CHECKS - READY FOR ALLOCATION"
+            },
+            {
+              "label": "ON HOLD",
+              "value": "Id. Decision Makers"
+            },
+            {
+              "label": "INSTRUCTION ALLOCATED",
+              "value": "Proposal/Price Quote"
+            },
+            {
+              "label": "VISIT COMPLETE",
+              "value": "Negotiation/Review"
+            },
+            {
+              "label": "VISIT UNDER REVIEW",
+              "value": "Closed Won"
+            },
+            {
+              "label": "REPORT COMPLETE/AVAILABLE",
+              "value": "Closed Lost"
+            },
+            {
+              "label": "AUDIO FILES AVAILABLE",
+              "value": "Closed Lost to Competition"
+            },
+            {
+              "label": "INSTRUCTION COMPLETE",
+              "value": "INVOICE AVAILABLE"
+            },
+            {
+              "label": "CLOSED",
+              "value": "CLOSED"
+            }
+          ]
+        },
+        {
+          "field_name": "Moved To",
+          "api_name": "Moved_To__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "OPEN",
+              "value": "Qualification"
+            },
+            {
+              "label": "QUERY WITH CLIENT  ",
+              "value": "Needs Analysis"
+            },
+            {
+              "label": "QUERY WITH THE CLIENT",
+              "value": "QUERY WITH THE CLIENT"
+            },
+            {
+              "label": "CHECKS COMPLETED - READY FOR ALLOCATION  ",
+              "value": "Value Proposition"
+            },
+            {
+              "label": "COMPLETED CHECKS - READY FOR ALLOCATION",
+              "value": "COMPLETED CHECKS - READY FOR ALLOCATION"
+            },
+            {
+              "label": "ON HOLD",
+              "value": "Id. Decision Makers"
+            },
+            {
+              "label": "INSTRUCTION ALLOCATED",
+              "value": "Proposal/Price Quote"
+            },
+            {
+              "label": "VISIT COMPLETE",
+              "value": "Negotiation/Review"
+            },
+            {
+              "label": "VISIT UNDER REVIEW",
+              "value": "Closed Won"
+            },
+            {
+              "label": "REPORT COMPLETE/AVAILABLE",
+              "value": "Closed Lost"
+            },
+            {
+              "label": "AUDIO FILES AVAILABLE",
+              "value": "Closed Lost to Competition"
+            },
+            {
+              "label": "INSTRUCTION COMPLETE",
+              "value": "INVOICE AVAILABLE"
+            },
+            {
+              "label": "CLOSED",
+              "value": "CLOSED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Email_Analytics",
+      "module_name": "Email Analytics",
+      "picklist_fields": [
+        {
+          "field_name": "Mail Source",
+          "api_name": "Mail_Source",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Individual",
+              "value": "Individual"
+            },
+            {
+              "label": "WorkFlow Alert",
+              "value": "WorkFlow Alert"
+            },
+            {
+              "label": "Mass Email",
+              "value": "Mass Email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Email_Template_Analytics",
+      "module_name": "Email Template Analytics",
+      "picklist_fields": [
+        {
+          "field_name": "Mail Source",
+          "api_name": "Mail_Source",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Individual",
+              "value": "Individual"
+            },
+            {
+              "label": "WorkFlow Alert",
+              "value": "WorkFlow Alert"
+            },
+            {
+              "label": "Mass Email",
+              "value": "Mass Email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Notes",
+      "module_name": "Notes",
+      "picklist_fields": [
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Attachments",
+      "module_name": "Attachments",
+      "picklist_fields": [
+        {
+          "field_name": "Record Status",
+          "api_name": "Record_Status__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Trash",
+              "value": "Trash"
+            },
+            {
+              "label": "Available",
+              "value": "Available"
+            },
+            {
+              "label": "Draft",
+              "value": "Draft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Emails",
+      "module_name": "Emails",
+      "picklist_fields": [
+        {
+          "field_name": "Source",
+          "api_name": "Source",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "Individual",
+              "value": "Individual"
+            },
+            {
+              "label": "Workflow",
+              "value": "Workflow Alert"
+            },
+            {
+              "label": "Mass Email",
+              "value": "Mass Email"
+            },
+            {
+              "label": "Mass Email Scheduler",
+              "value": "Mass Email Scheduler"
+            },
+            {
+              "label": "Mail Merge",
+              "value": "Mail Merge"
+            },
+            {
+              "label": "Plugin-Outlook",
+              "value": "Plugin-Outlook"
+            },
+            {
+              "label": "Autoresponder",
+              "value": "Autoresponder"
+            },
+            {
+              "label": "Autoresponder Follow-up",
+              "value": "Autoresponder Follow-up"
+            },
+            {
+              "label": "Mass Email Follow-up",
+              "value": "Mass Email Follow-up"
+            },
+            {
+              "label": "Multiple",
+              "value": "Multiple"
+            },
+            {
+              "label": "BCC Dropbox",
+              "value": "BCC Dropbox"
+            },
+            {
+              "label": "Plugin Mail",
+              "value": "Plugin Mail"
+            },
+            {
+              "label": "Event Invitation",
+              "value": "Event Invitation"
+            },
+            {
+              "label": "Web Form",
+              "value": "Web Form"
+            },
+            {
+              "label": "Consent Email",
+              "value": "Consent Email"
+            },
+            {
+              "label": "Integration Task Mail",
+              "value": "Integration Task Mail"
+            },
+            {
+              "label": "Widget Email",
+              "value": "Widget Email"
+            },
+            {
+              "label": "Integration Email",
+              "value": "Integration Email"
+            },
+            {
+              "label": "Access Email",
+              "value": "Access Email"
+            },
+            {
+              "label": "Rectify Email",
+              "value": "Rectify Email"
+            },
+            {
+              "label": "Export Email",
+              "value": "Export Email"
+            },
+            {
+              "label": "Calendar Booking Email",
+              "value": "Calendar Booking Email"
+            },
+            {
+              "label": "API",
+              "value": "API"
+            },
+            {
+              "label": "External",
+              "value": "External"
+            },
+            {
+              "label": "Other Emails",
+              "value": "Other Emails"
+            },
+            {
+              "label": "Kiosk",
+              "value": "Kiosk"
+            },
+            {
+              "label": "Cadence",
+              "value": "Cadence"
+            },
+            {
+              "label": "Connected Workflow",
+              "value": "Connected Workflow"
+            },
+            {
+              "label": "Blueprint",
+              "value": "Blueprint"
+            },
+            {
+              "label": "Journey",
+              "value": "Journey"
+            },
+            {
+              "label": "Approval Process",
+              "value": "Approval Process"
+            },
+            {
+              "label": "Wizard",
+              "value": "Wizard"
+            },
+            {
+              "label": "Macro",
+              "value": "Macro"
+            },
+            {
+              "label": "Graph API",
+              "value": "Graph API"
+            },
+            {
+              "label": "IMAP",
+              "value": "IMAP"
+            },
+            {
+              "label": "POP",
+              "value": "POP"
+            }
+          ]
+        },
+        {
+          "field_name": "Sent From",
+          "api_name": "Sent_From",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "-None-",
+              "value": "-None-"
+            },
+            {
+              "label": "CRM",
+              "value": "CRM"
+            },
+            {
+              "label": "Other email client",
+              "value": "Other email client"
+            }
+          ]
+        },
+        {
+          "field_name": "Email Intent",
+          "api_name": "Email_Intent",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Purchase",
+              "value": "Purchase"
+            },
+            {
+              "label": "Query",
+              "value": "Query"
+            },
+            {
+              "label": "Complaint",
+              "value": "Complaint"
+            },
+            {
+              "label": "Request",
+              "value": "Request"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Forecast_Quotas",
+      "module_name": "Forecast Quotas",
+      "picklist_fields": [
+        {
+          "field_name": "Last Action",
+          "api_name": "Last_Action__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Set By Self",
+              "value": "Set By Self"
+            },
+            {
+              "label": "Set By Manager",
+              "value": "Set By Manager"
+            },
+            {
+              "label": "Set By Admin",
+              "value": "Set By Admin"
+            },
+            {
+              "label": "Approved",
+              "value": "Approved"
+            },
+            {
+              "label": "Revised",
+              "value": "Revised"
+            },
+            {
+              "label": "Rejected",
+              "value": "Rejected"
+            },
+            {
+              "label": "Notified",
+              "value": "Notified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Forecast_Groups",
+      "module_name": "Forecast Groups",
+      "picklist_fields": [
+        {
+          "field_name": "Forecast Model",
+          "api_name": "Forecast_Model",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Top Down",
+              "value": "Top Down"
+            },
+            {
+              "label": "Bottom Up",
+              "value": "Bottom Up"
+            }
+          ]
+        },
+        {
+          "field_name": "Forecast Hierarchy",
+          "api_name": "Forecast_Hierarchy",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Roles",
+              "value": "Roles"
+            },
+            {
+              "label": "Territory",
+              "value": "Territory"
+            },
+            {
+              "label": "Reporting To",
+              "value": "Reporting To"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "api_name": "Locking_Information__s",
+      "module_name": "LockingInformation",
+      "picklist_fields": [
+        {
+          "field_name": "Lock Source",
+          "api_name": "Lock_Source__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "Manual",
+              "value": "Manual"
+            },
+            {
+              "label": "Automatic",
+              "value": "Automatic"
+            }
+          ]
+        },
+        {
+          "field_name": "Feature Type",
+          "api_name": "Feature_Type__s",
+          "data_type": "picklist",
+          "options": [
+            {
+              "label": "record_locking",
+              "value": "record_locking"
+            },
+            {
+              "label": "orchestration",
+              "value": "orchestration"
+            },
+            {
+              "label": "find_and_merge",
+              "value": "find_and_merge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+Pronounce your name.
+
+That's right.
+
+It's Aasha, You are Sally, right.
+
+Is that Sally? Yes, Nice to meet you.
+
+Same, that's Navia.
+
+She's the developer from our team.
+
+I'll be project coordinating.
+
+Nice to meet you.
+
+Alright.
+
+So it's time we move to Zoho Books now.
+
+Yeah, Allison has told that you have already some experience on Zoho Books, say for one of other companies.
+
+I'm the very much the kind of a, you know, just just a if you know, I mean, I don't have any, you know, Basically invoices are posted on it via the, you know that whatever they set the portal is if you like.
+
+So I don't touch to the sales invoices and everything's really there.
+
+And obviously then I take it from there just in the normal kind of accountant rule and so yeah, I'm not, I'm not quite sure you know what the links are and things.
+
+Okay, alright.
+
+So I think what scope we have for Zoho Books integration right now what with us is the client invoices will be through Zoho Books if we are right.
+
+So do you want us to directly create client invoices in Zoho Books? So yeah, that would so they would be automatically created from the information.
+
+Yeah, yeah, yes that would be so they would't need to be manually created within Zoho Books.
+
+It would be an automatic.
+
+Yeah, Right, Right.
+
+So we will do that.
+
+I just wanted to have a question that would you be doing your VAT filing through Zoho Books? That's the ultimate aim.
+
+Yes.
+
+Our financial year end is the end of October 31 of October and we obviously use a system just now, but I would like to work towards using Zoho Books, you know, as fast as possible for that time, you know, providing everything goes smoothly and I'm up-to-date.
+
+I would plan to kind of start our financial new financial year end, you know, first of November in which case would be processing the VAT invoices from from Zoho Books and that's obviously subject to everything in the music system being ready to go live in 1 November if you like, understood, alright.
+
+So I think is there any template on Zoho Books that you would be looking for for client invoices or we can just follow the invoices the way it is, I think follow the invoices to be is really a name.
+
+Obviously think it just posted and I presume nominal account, you know, and some music revenue nominal account need, you know, any more detail as to where where they go if you like within the chart of accounts.
+
+Okay.
+
+Alright.
+
+Chart of accounts.
+
+Okay.
+
+So we will just set up the regular Zoho Books the way it is set up and we will need to automate the sync of client invoices from the music system to the Zoho Books.
+
+So this is all that would be needed, right? Nothing to do with data migrations and stuff.
+
+So I think we would plan to keep our systems fairly simple, you know, in our accounts is fairly simple.
+
+So I think we will plan to keep all the history, you know, we just carry forward balances if you like.
+
+Yeah, Yeah.
+
+We have minimal customers and suppliers.
+
+So you know, it's not a huge amount of they wouldn't be too much manual and innocent.
+
+That would really justify, you know, a big data migration or anything like that.
+
+Okay? So we can just have an opening and closing balance that can be fetched from your existing systems.
+
+Right? Yeah, I could just keep push them manually and via journal, you know, once we get a closing trial balance from the old system if you like, I would probably plan to just push it in via Journal.
+
+Okay.
+
+And in terms of any integration with banking applications, No.
+
+Right.
+
+Well ultimately we probably would want sort of, you know, an automatic upload from our bank.
+
+But I presume is that fairly easy to set up? Just, you know, once we have it up and running so that, you know, we've got direct feed from the bank and to to Zoho.
+
+Yeah.
+
+That that's something making.
+
+Yeah.
+
+Just that it is, it doesn't support all the banks so we'll have to see at that point in time.
+
+Okay, alright, Okay.
+
+So I think this seems to be quite clear for me Sally.
+
+What we would do next is most likely we'll go ahead and set up a trial Zoho Books for you and we will and we will also have all the automation of client invoices done, just a trial system and maybe two weeks from now if we connect again, we can show you how it is working and you can actually give US-A feedback if you have any changes and then based on that we will give you the credentials also to play around yourself.
+
+That sounds good and so but no, that sounds perfect.
+
+Then if you want to kind of go ahead with that and then I can look in, see how it looks ultimately in Zoho Books and if I get any further queries or whatever, but that's, that's good.
+
+Okay.
+
+Anything you want to add from your end with your Zoho Books experience that you would able, the only thing I was going to ask US-A very generic question is same in the chart of accounts the company around just now, it's just a very simple chart of accounts, but ID inquiries, we probably want to maybe make it a little more well, not advanced, but I'm just wondering what the capacity is because I can't actually see it within the chart of accounts to have like departments, you know, so if you've got say, like a salaries for music in salaries for hotels, you allocate across departments if you like, obviously, you know, I can see they can have linear, you know, you can have some accounts rolling up into, you know, an account heading, but it was just for, you know, if we wanted to have, you know, so that we could run like a profit loss by department if you like, you know, that kind of thing, Just a Okay, so you, you wanted in chart of accounts, you want a segregation of what is done for music department, what is done for other departments that kind of Yeah, Okay.
+
+I will take a look at it because it could be set up manually.
+
+That should not be a problem, but my only worry is they won't be an automation because in CRM we don't have this department set up.
+
+Yeah, so but but yeah it so sorry, I interrupt here, I probably wouldn't need it, you know, from the CRM point of view, it's more from a cost point of view and because I can of revenue is very, very simple, you know, I could kind of manually, you know, I can do something with that.
+
+So it's more just, you know, more so from all the cost point of view, just the chart of accounts, you know, it's just really, I wouldn't mind that we can have and full session as to how to set up, you know, with the departments so that you go see different allocations if you like.
+
+Okay.
+
+So it's going to be just we we need to set up different departments and you will input all the data manually SA Okay, alright, Okay.
+
+So I would want you to define maybe not now, but you can just email me on what are the different accounts you want under chat of accounts so that when we are doing a demo we can set it up for you.
+
+Okay.
+
+So you would join for basic complete chart like I that we are going to work with or just on the and the departments or just in the revenue side or if you can define revenue side and department for us.
+
+Okay, that's fine.
+
+Okay.
+
+I can get back to you in that.
+
+So in the next week or so if that's Okay.
+
+Yeah, then we can look at that.
+
+So that was kind of my main question.
+
+The other thing is just within, you know, obviously in Zoho Books with there's users and rules and things that the rules are set up for the invoice and if it's an automated invoicing within the CRM, I presume no one other than sort of the kind, you know that the users of the CRM, if you like, wouldn't need access to books at all.
+
+If it's automated, you know, they don't need to.
+
+If they want to take an invoice, they can do that within the CRM system.
+
+Correct.
+
+That's it's correct.
+
+So they don't need access to Zoho Books.
+
+Okay.
+
+Would not be able to see the Zoho Books anything like.
+
+So really the only rule the moment I'm the accountant here and they kind of only operated over mean account system.
+
+So really the only rule present would just be for myself and possibly Alison if she wants same to be able to look at dashboards and things.
+
+We don't need any kind of anyone below that to anything.
+
+That's that's right.
+
+Yeah.
+
+And anybody who needs to be on Zoho Books, we'll have to give them access.
+
+So it depends.
+
+Okay, that sounds good.
+
+I think that's so let's say until I can see you then and Link office, they have not really been involved in any of the CRM stuff so long as I can see in output and to books and follow it through from there we can have a further chat and and see what's what, alright.
+
+So I think I have got a fair idea to get started, but we would need your hand holding on how you want your system to use.
+
+So what we would do is we will just do a what? Based on our understanding, we'll do a setup.
+
+I'll send you the timelines.
+
+I'll have a chat with Nava after our call today on the timelines.
+
+And then maybe couple of weeks from now is what I'm estimating we can have our first session on how Zoho Books setup has come through.
+
+You give us the feedback and then we built on top of that that Scien skates.
+
+Perfect.
+
+Yeah, probably nice to meet you.
+
+Same here.
+
+Thank you too.
+
+Thank you.
+
+Buh, bye, Buh bye.

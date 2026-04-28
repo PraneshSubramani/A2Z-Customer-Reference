@@ -1,0 +1,15 @@
+1. Introduction and greetings exchanged between team members.
+2. Progress report on the work done since the long weekend, including sorting out licenses, connecting CRM and Creator, cleaning up CRM modules, and building a custom premises module.
+3. Tega provides a demo of the portal and the functionality added, including the instruction form, saving drafts, adding new premises, and the stages of the customer journey.
+4. Discussion on the process of adding premises and validating addresses in CRM, with potential tweaks to the flow.
+5. Overview of the stages and information displayed in the instruction module in CRM.
+6. Demo of the premises module in CRM and the history of premises checks.
+7. Request for feedback and confirmation from the team on their ability to use the system.
+8. Discussion on the next steps for the next meeting, including showing the client submitting a full instruction, the process of receiving the instruction, and assigning the instruction to the investigator.
+9. Request for the team to send the instruction templates for review and feedback.
+10. Clarification on the priority box and the need for a pick list for high, low, and medium priority.
+11. Discussion on the information required for the primary license holder and the DPS, and the fields needed for storing investigators in the module.
+12. Confirmation on the email notification process for clients when they submit an instruction.
+13. Request for changes to the city, district, state, and province fields in CRM to be changed to city, county, and region.
+14.
+Conclusion and agreement that the current discussion covers all the necessary topics for the moment, with the understanding that there may be further questions and discussions in the future. Exchange of gratitude and farewells as the meeting comes to a close.

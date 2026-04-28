@@ -1,0 +1,427 @@
+Hello, Yeah, Hello back again.
+
+So for the first meeting, I have just taken one one change request which is having the tag added for the premises.
+
+Right? Everything else is good with the instructions.
+
+Yeah.
+
+Other than the the name has Tom.
+
+Yeah, that's changed already Perfect.
+
+Alright.
+
+So let's start with the second initial proposal drafting session.
+
+Hey Melissa, will you be able to show your screen? G If you go to CRM? Yeah.
+
+Can you click on to instructions and if you just click anyone, I just need to do one more final check because I only gave you access to Creator today.
+
+Can you click on portal top? Right? Yeah.
+
+Can you click on reports and progress at the top on the Okay, Sorry, just give me a second can you click on all reports as well on instruction? Okay.
+
+So yeah, just give me a like a minute.
+
+Let me just make sure the reports show in.
+
+Yeah.
+
+Yeah.
+
+Mainly send them to you.
+
+I.
+
+' normally, I've seen more emails from have recently he, she, it seems a lot.
+
+No, she is thank he's quite happy to wait because he knows that of these to check the.
+
+I need to see today.
+
+Allused a gap, another look at another one there and then when this finished and then our next one when you finish, you finished tomorrow, tomorrow, tomorrow can you refresh? Yeah.
+
+And if you click on reports and progress now? Yeah, Okay.
+
+I'm a divorce SC Okay.
+
+Can you refresh again and yet reports in progress? Give me a second to not do this to me now? Yeah, Yeah.
+
+Can you refresh one more time? Yeah, Yeah.
+
+If you click on reports in progress again, wait an initial review one more time.
+
+Okay.
+
+That is broke.
+
+Okay, Sorry you are not allowed to access code so okay try again.
+
+Can you click report in progress again? Okay, let me not take any more time.
+
+We can still progress anyway.
+
+So what is let's go back to the CRM now.
+
+Okay.
+
+One, you can pick either one that you made.
+
+Yeah.
+
+Okay.
+
+So I know the weather sprints and that's when I cre this morning.
+
+So if you look on the related list, what we've also done is for the premises check.
+
+We've also related that to the instruction, you know, for ease of navigation and also for visibility.
+
+So you know what check is related to what instruction, especially in the cases where people, clients might re-instruct you to go to the same place you have that history.
+
+So if you click on premises check on the left hand Yeah.
+
+And yeah, just click on the PC one, two seven.
+
+So yeah.
+
+On here is what you basically carry out the premises check sending the request for information out.
+
+So check if you Yeah.
+
+So I don't know if the fields are okay, is there anything else that is when you do your change, you also make sure the name is that right? Yeah.
+
+Address the license details EF we have it in from them ye and then I'll say we find out who the licensing people are and then also I guess you feel that if you need to contact someone so then you either to like email or pub and then take the box and then go's D and then we'll just see the got back to us today as well.
+
+There is also the obviously if you want to send the emails out to the council if you use the send mail email at the top.
+
+Yeah, Yeah.
+
+So we've put in two templates but you can still free text anyway.
+
+So if you say insert templates and yeah, you just select the one and that's good.
+
+It's the last time I think we done that it was coming up with like random number.
+
+So it's coming up for you.
+
+And then obviously, I guess if we have the name of that, we can as well what we have, if there's no name, that line will be blank and but it allows you to also edit the email as well.
+
+Yeah, So if for example, you want to change the date license and stated to August eight, you can edit the text as well, but that's the name of licenses.
+
+So that's not that authority that's go through rather than the relationship.
+
+Okay? so those are two different things.
+
+Yeah.
+
+So that's, but here is is normally like a person's name or a company Gotcha.
+
+Gotcha? Okay.
+
+Take a note of that information, just say as I usually sometimes think if we've got the information there, sometimes we are asking them as if you don't know and then you can come to I'll just delete that.
+
+But there also could be times where you say as a, so that needs to change instead of that being there can basically needs to Yeah.
+
+Yeah.
+
+Rather than that but that's going to make you so much sorry.
+
+So is meant to pull the so instead of it, it's currently which is the license authority, but it actually needs to just pull the license in holder the female page.
+
+So that lists those two cause that's the names of the people who are looking to confirm.
+
+Okay, so just give me, I will make that change live party dog that couple dear.
+
+I mean, I was going to go down the range root but Jack in the room somewhere loveliness stopped me.
+
+Okay.
+
+So you should go back to send email now.
+
+Yeah.
+
+That's the name of license.
+
+Yeah.
+
+That's it that information.
+
+Yeah, okay, that's perfect.
+
+Yeah, okay, no worries.
+
+And if you send any emails out, it will go on the email related list that Yeah.
+
+So you have that history as well.
+
+I'm just thinking right, so we send an message just me, if we're sending an email from the system, where's the email that they apply? This, is it coming in back to us or is it coming your email? my email address so it's coming back to our Yes.
+
+Then do you then need to upload that email? No.
+
+So automatically if they reply it will show on the emails.
+
+That's fine.
+
+Just yeah.
+
+But the mail will actually be stored on your mailbox so you can still access it from your mailbox as well.
+
+That's so thinking you requested emails but then you could holiday Yeah.
+
+We go to check.
+
+I mean, I could get forwarded to me, but just the north chance they appear back end.
+
+That's fine.
+
+Yeah.
+
+Okay.
+
+Okay.
+
+So so yeah, if you now go back to the instruction so that here you can click on the instruction on the like that name.
+
+Yeah.
+
+The actual name, it will redirect you to the instruction.
+
+Okay.
+
+So anywhere that there is blue sort of works as a hyperlink.
+
+Yeah, yeah.
+
+Back to here.
+
+Sorry if everything is fine sir.
+
+One second Yeah, Sorry.
+
+Yeah.
+
+So if everything is fine, you can go ahead and then say completed checks ready for allocation.
+
+I forgot to mention as well that okay.
+
+I think I mentioned it in the earlier session, but once the completed checks ready for allocation, it's in the stage that stage, if you click on emails, it will also send an email to the cost the client as well, just to let them know that you have accepted the instruction.
+
+So if you, if you just save you email at the top, Yeah, show you show the full email.
+
+Okay.
+
+I will move that thank you to the edge.
+
+Yeah, okay.
+
+So if you, if you exist now, Yeah, yeah, okay, yeah, yeah and yeah.
+
+And then click on portal again.
+
+Yeah, top top right, yeah, okay can you click on assignment map second, second from the top? Alright, Move Yeah.
+
+Moved everything.
+
+Okay.
+
+Interesting.
+
+That's taking up your random.
+
+I just Yeah, thank you.
+
+It should be like about July.
+
+Yeah.
+
+That's the main street so it's usually what Okay.
+
+I will take a note of that fifty two to twenty eight Main Street No worries.
+
+Yeah, I'll, I'll, I'll take a look at the positioning.
+
+Yeah.
+
+So John, basically you can open the assignment map and it will show you all the self-explanatory.
+
+Anything in purple is unassigned and then you can just click on it.
+
+So just before we progress now via do we have an investigator Come again, I didn't get you, do we have an investigator profile they can access, You can add only three profiles.
+
+I've added us as investigator and Alison and Melissa as client for testing purpose.
+
+I add that Oh no, don't.
+
+What I'll do is I'll login as the investigator.
+
+I get to go in their profile.
+
+So if you just click on on a the unassigned one, Yeah, yeah.
+
+And if you scroll down on the on the and find take a bond, I'll be on the way down because I'll be in so okay.
+
+So yeah, it was assigned take a bond one instruction.
+
+So what I would do now if you go back to CRM, I'll just do a hard refresh on the page alright.
+
+Yeah.
+
+So automatically yeah.
+
+It'll move itself and it will send an email to the investigator.
+
+Yeah.
+
+As well.
+
+So I think they are just getting really excited.
+
+You, that's me.
+
+That's good.
+
+That's good.
+
+Okay.
+
+So let me just look in as the investigator share my screen.
+
+Okay? Can you see my screen? Yeah.
+
+Yeah.
+
+So the investigator will receive the email and then once they receive the email, it will take them to this report here they can just click on the specific side visit edits then I accept and then fill in the visit date fourteen.
+
+Yeah.
+
+Don T just see this question or outside outside or they can leave a blank.
+
+Yeah.
+
+I said anything for that expensive steak and wine.
+
+Okay.
+
+If they have the sketch plans they can upload.
+
+If they have the audio issues they can upload as well.
+
+So what I would do, downloaded a video for this F reason, just need to find it.
+
+Yeah.
+
+Yeah.
+
+They can upload the files here or you know, depends.
+
+If done on a laptop, they can just drag and drop uploaded, they can close.
+
+I can add the music tracks.
+
+The output is from the device.
+
+John just saying if if they plug the device into the computer, does that mean they can upload and see if the try this, I would, I would get them to upload it to the computer first just in case anything is wrong.
+
+I'm going to tell them how to do that to Okay.
+
+So if they go now to say visa report completes, there's no invoice, they'll have to go create an invoice.
+
+So if I forgot to my invoices now yeah.
+
+Manage random question, are they allowed to put decimals for the manage? It's better to figure some some of the pretend four point five but that type of thing, but it's just figure.
+
+Yeah.
+
+And then if there's a fixed fee, they can add in the fixed fee as well.
+
+Once I done the hit submit.
+
+However, if they go to submit the it will flag up because the invoice status is not set to complete.
+
+So set the draft.
+
+So they'll have to go update that invoice, change that back to completes.
+
+If they want to change anything else they can updates that's done.
+
+And once they hit submit, it's taken out from the screen.
+
+They can't see the side visit anymore.
+
+They'll still have access to the invoices, but they've already submitted so they can't really do anything.
+
+I know I breathed through the fields, so I don't know if you guys haven't had any comments, questions or anything like that.
+
+See back to the National Report when you know, I know I'm is the worries? any kind of queries? Okay? No worries.
+
+Let me Session three, Session three, think session three were meant to go through the steps once they submit.
+
+So what I'll do is let me just quickly.
+
+So this was the, these are, these are the reports I was trying to make available.
+
+So what I've done is I've just created some cleanup reports so it's easier for people to know where they need to click.
+
+So there's unassigned instructions.
+
+So if there's any instruction that's unassigned, John, you can still see it on the map, but you can also see as a table as well.
+
+There's the instructions away in initial review.
+
+So this is what I just filled in and has come back.
+
+So Jackie, you know what to click to go through and see the site visits that you need to review.
+
+Once Jackie is done, it will move to the waiting site visit review.
+
+That's for John.
+
+Then John will do his bit and then it'll be a waiting invoice which is where Alison and Melissa, you'll do your bit.
+
+And then obviously once everything's complete, everything in here.
+
+So yeah.
+
+So down in investigators drop down can we tell now what what jobs are assigned assigned to investigators? No, So that's still a work in progress.
+
+But yeah, that'll be done by tomorrow.
+
+Worries.
+
+So yeah, while do is, I will try and get those reports available for the next session.
+
+Obviously, like I said Melissa, I just gave you access to the application now.
+
+Yeah, Yeah, I'll try and have those available because I just want us to work through use the reports to get you guys using the reports, know what to click and then see how it progresses.
+
+Yeah.
+
+On Yeah, you guys go try have lunch now.
+
+Yeah, I think I thought they will have the lunch after the next break because that's how I planned that.
+
+After the next session there is a long break so I don't have a coffee break just now and I know Yeah, I had a quick break which me Yeah, yeah, so yeah, I'll take a look at the reports and yeah, I'll see you guys soon.
+
+Okay.
+
+So Regga just to reconfirm for this session.
+
+The only takeaway is making the reports visible to them, Right? No other changes like change.
+
+Alright? Okay, Yeah, making the investigators so we know jobs they have.
+
+Yeah.
+
+So yeah, that's already working program.
+
+Yeah, Yeah, that's okay.
+
+Thank you.
+
+Thank you.
+
+Thank you.
+
+Bye.
