@@ -180,18 +180,15 @@ COLUMNS = [
     # INVESTIGATOR (Q-R)
     ("Q", "INVESTIGATOR", "Investigator Assigned",    False, "Required IF Status = Allocated.", "Investigators", 22),
     ("R", "INVESTIGATOR", "Date Assigned",            False, "Required IF Status = Allocated. DD/MM/YYYY.", None, 14),
-    # LICENCE CHECK (S-Z)
-    ("S",  "LICENCE CHECK","Premises Licence Holder (PLH)",          False, "Auto-fills from Premises section.", None, 22),
-    ("T",  "LICENCE CHECK","Licensing Authority",                    False, "Auto-fills from Premises section.", None, 24),
-    ("U",  "LICENCE CHECK","Designated Premises Supervisor (DPS)",   False, "Auto-fills from Premises section.", None, 22),
-    ("V",  "LICENCE CHECK","Date Information Requested from Council",False, "Date council was contacted. DD/MM/YYYY.", None, 18),
-    ("W",  "LICENCE CHECK","Date Information Received from Council", False, "Date council replied. DD/MM/YYYY.", None, 18),
-    ("X",  "LICENCE CHECK","How to Apply for Details",               False, "How licence details were requested.", "CouncilMethod", 22),
-    ("Y",  "LICENCE CHECK","Check Status",                           False, "Has the council responded?", "CouncilResponse", 18),
-    ("Z",  "LICENCE CHECK","Licence Check Notes",                    False, "Required IF Check Status = Yes.", None, 36),
-    # DIAGNOSTICS (AA-AB)
-    ("AA", "DIAGNOSTICS",  "Row Status",                             False, "Auto-calculated.", None, 14),
-    ("AB", "DIAGNOSTICS",  "Missing Fields",                         False, "Auto-calculated.", None, 40),
+    # LICENCE CHECK (S-W) — PLH/LA/DPS sourced from Premises section by conversion
+    ("S",  "LICENCE CHECK","Date Information Requested from Council",False, "Date council was contacted. DD/MM/YYYY.", None, 18),
+    ("T",  "LICENCE CHECK","Date Information Received from Council", False, "Date council replied. DD/MM/YYYY.", None, 18),
+    ("U",  "LICENCE CHECK","How to Apply for Details",               False, "How licence details were requested.", "CouncilMethod", 22),
+    ("V",  "LICENCE CHECK","Check Status",                           False, "Has the council responded?", "CouncilResponse", 18),
+    ("W",  "LICENCE CHECK","Licence Check Notes",                    False, "Required IF Check Status = Yes.", None, 36),
+    # DIAGNOSTICS (X-Y)
+    ("X",  "DIAGNOSTICS",  "Row Status",                             False, "Auto-calculated.", None, 14),
+    ("Y",  "DIAGNOSTICS",  "Missing Fields",                         False, "Auto-calculated.", None, 40),
 ]
 
 SECTION_COLOURS = {
@@ -217,15 +214,12 @@ EXAMPLE_VALUES = {
     "O": "No", "P": "Confirm Licensee and DPS. Attempt to obtain bank details.",
     # Investigator (Q-R)
     "Q": "Gary Hall", "R": "16/05/2024",
-    # Licence Check (S-Z) — S/T/U mirror the Premises section by design
-    "S": "Trust Inns Ltd",
-    "T": "Staffordshire County Council",
-    "U": "Edward Paul Bolton",
-    "V": "07/05/2024",
-    "W": "09/05/2024",
-    "X": "Public Register Online",
-    "Y": "Yes",
-    "Z": "Email from Michael asking to put on hold — linked premises found.",
+    # Licence Check (S-W) — PLH/LA/DPS handled by conversion, not stored here
+    "S": "07/05/2024",
+    "T": "09/05/2024",
+    "U": "Public Register Online",
+    "V": "Yes",
+    "W": "Email from Michael asking to put on hold — linked premises found.",
 }
 
 
@@ -337,31 +331,23 @@ def build_instructions(wb):
         cell.border = border_all
     ws.row_dimensions[EXAMPLE_ROW].height = 20
 
-    # Auto-fill formulas for Licence Check S/T/U (mirror Premises section)
-    # plus Row Status (AA) and Missing Fields (AB) diagnostic formulas.
+    # Row Status (X) and Missing Fields (Y) diagnostic formulas.
+    # Licence Check section now references V (Check Status) and W (Notes).
     for r in range(DATA_FIRST_ROW, DATA_LAST_ROW + 1):
-        # S = PLH copy of G; T = Licensing Authority copy of F; U = DPS copy of H
-        ws[f"S{r}"] = f'=IF(G{r}="","",G{r})'
-        ws[f"T{r}"] = f'=IF(F{r}="","",F{r})'
-        ws[f"U{r}"] = f'=IF(H{r}="","",H{r})'
-        for col in ("S", "T", "U"):
-            ws[f"{col}{r}"].font = font_diag
-            ws[f"{col}{r}"].alignment = align_left
-
-        # Row Status — AA{r}
+        # Row Status — X{r}
         cond_parts = [f'A{r}=""']
         for c in ["B", "C", "E", "F", "I", "J", "K", "M", "N", "O"]:
             cond_parts.append(f'{c}{r}=""')
         cond_parts.append(f'AND(I{r}="Allocated",OR(Q{r}="",R{r}=""))')
-        cond_parts.append(f'AND(Y{r}="Yes",Z{r}="")')
+        cond_parts.append(f'AND(V{r}="Yes",W{r}="")')
         condition = "OR(" + ",".join(cond_parts) + ')'
-        ws[f"AA{r}"] = (
+        ws[f"X{r}"] = (
             f'=IF(A{r}="","",IF({condition},"Incomplete","Ready"))'
         )
-        ws[f"AA{r}"].font = font_diag
-        ws[f"AA{r}"].alignment = align_centre
+        ws[f"X{r}"].font = font_diag
+        ws[f"X{r}"].alignment = align_centre
 
-        # Missing Fields — AB{r}
+        # Missing Fields — Y{r}
         labels = {
             "B": "Street Address", "C": "City", "E": "Postcode",
             "F": "Licensing Authority", "I": "Status", "J": "Firm",
@@ -376,17 +362,17 @@ def build_instructions(wb):
             f'IF(AND(I{r}="Allocated",R{r}=""),", Date Assigned","")'
         )
         miss_parts.append(
-            f'IF(AND(Y{r}="Yes",Z{r}=""),", Licence Check Notes","")'
+            f'IF(AND(V{r}="Yes",W{r}=""),", Licence Check Notes","")'
         )
         concat = "&".join(miss_parts)
-        ws[f"AB{r}"] = (
-            f'=IF(AA{r}<>"Incomplete","",SUBSTITUTE({concat},", ","",1))'
+        ws[f"Y{r}"] = (
+            f'=IF(X{r}<>"Incomplete","",SUBSTITUTE({concat},", ","",1))'
         )
-        ws[f"AB{r}"].font = font_diag
-        ws[f"AB{r}"].alignment = align_left
+        ws[f"Y{r}"].font = font_diag
+        ws[f"Y{r}"].alignment = align_left
 
     # Unlock data entry cells (exclude formula-driven columns)
-    formula_cols = ("S", "T", "U", "AA", "AB")
+    formula_cols = ("X", "Y")
     for r in range(DATA_FIRST_ROW, DATA_LAST_ROW + 1):
         for col_letter in [c for c, *_ in COLUMNS if c not in formula_cols]:
             unlock(ws[f"{col_letter}{r}"])
@@ -441,24 +427,24 @@ def build_instructions(wb):
         )
 
     rule = FormulaRule(
-        formula=[f'AND($Z{DATA_FIRST_ROW}="",$Y{DATA_FIRST_ROW}="Yes")'],
+        formula=[f'AND($W{DATA_FIRST_ROW}="",$V{DATA_FIRST_ROW}="Yes")'],
         stopIfTrue=False, fill=fill_red,
     )
     ws.conditional_formatting.add(
-        f"Z{DATA_FIRST_ROW}:Z{DATA_LAST_ROW}", rule
+        f"W{DATA_FIRST_ROW}:W{DATA_LAST_ROW}", rule
     )
 
     rule_ready = FormulaRule(
-        formula=[f'$AA{DATA_FIRST_ROW}="Ready"'], stopIfTrue=False, fill=fill_green,
+        formula=[f'$X{DATA_FIRST_ROW}="Ready"'], stopIfTrue=False, fill=fill_green,
     )
     rule_inc = FormulaRule(
-        formula=[f'$AA{DATA_FIRST_ROW}="Incomplete"'], stopIfTrue=False, fill=fill_amber,
+        formula=[f'$X{DATA_FIRST_ROW}="Incomplete"'], stopIfTrue=False, fill=fill_amber,
     )
     ws.conditional_formatting.add(
-        f"AA{DATA_FIRST_ROW}:AA{DATA_LAST_ROW}", rule_ready
+        f"X{DATA_FIRST_ROW}:X{DATA_LAST_ROW}", rule_ready
     )
     ws.conditional_formatting.add(
-        f"AA{DATA_FIRST_ROW}:AA{DATA_LAST_ROW}", rule_inc
+        f"X{DATA_FIRST_ROW}:X{DATA_LAST_ROW}", rule_inc
     )
 
     for col in ["J", "K", "Q"]:
