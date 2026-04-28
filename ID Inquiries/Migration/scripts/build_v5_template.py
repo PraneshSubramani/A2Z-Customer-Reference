@@ -261,7 +261,7 @@ def build_picklists(wb):
         ref = f"Picklists!${col}$2:${col}${last_row}"
         wb.defined_names[name] = DefinedName(name=name, attr_text=ref)
 
-    ws.protection.sheet = True
+    ws.protection.sheet = False
     return ws
 
 
@@ -457,7 +457,7 @@ def build_instructions(wb):
         )
 
     ws.freeze_panes = "B6"
-    ws.protection.sheet = True
+    ws.protection.sheet = False
     ws.protection.formatColumns = False
     ws.protection.formatRows = False
     return ws
@@ -514,7 +514,7 @@ def _build_reference_sheet(wb, sheet_name, header, data, widths, intro_text):
         ws.row_dimensions[r].height = 18
 
     ws.freeze_panes = "A3"
-    ws.protection.sheet = True
+    ws.protection.sheet = False
     ws.protection.formatColumns = False
     ws.protection.formatRows = False
     return ws
@@ -607,7 +607,7 @@ def build_portal_users(wb):
     dv_act.add(f"E{portal_first}:E{portal_last}")
 
     ws.freeze_panes = "A4"
-    ws.protection.sheet = True
+    ws.protection.sheet = False
     return ws
 
 
@@ -737,7 +737,7 @@ def build_readiness(wb):
     ws[f"B{note_row}"].alignment = align_left
     ws.row_dimensions[note_row].height = 30
 
-    ws.protection.sheet = True
+    ws.protection.sheet = False
     return ws
 
 
@@ -754,16 +754,12 @@ def build():
     build_client_accounts(wb)
     build_clients(wb)
     build_investigators(wb)
-    build_portal_users(wb)
-    build_readiness(wb)
 
     order = [
         "Instructions",
         "Client Accounts",
         "Clients",
         "Investigators",
-        "Portal Users",
-        "Submission Readiness",
         "Picklists",
     ]
     wb._sheets = [wb[name] for name in order]
